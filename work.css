@@ -1,0 +1,704 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*ここから入力 */
+body {
+  margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+a {
+  color: #ffffff80;
+}
+
+header {
+  max-width: 1260px;
+  width: 100%;
+  height: 75px;
+}
+
+.header-container {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  background-color: rgb(64, 31, 15);
+}
+
+.header-left {
+  width: 140px;
+  height: 45px;
+  padding: 1% 0 0 1%;
+}
+
+img {
+  width: 140px;
+  height: 45px;
+}
+
+.fa-bars {
+  display: none !important;
+
+}
+
+.menu-icon {
+  color: rgba(255,255,255,.5);
+  float: right;
+  font-size: 25px;
+  display: none;
+}
+
+.nav {
+  width: 100%;
+  height: 75px;
+}
+
+.nav-modal {
+  display: none;
+  width: 100%;
+  background-color: black;
+  z-index: 100;
+}
+
+.nav ul {
+  float: right;
+  margin-right: 30px;
+}
+
+.nav ul li, .nav-modal ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 7px;
+  line-height: 75px;
+  font-size: 16px;
+}
+
+.nav ul li a, .nav-modal ul li a {
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  color: #FBFBF1;
+}
+
+.gnav {
+  color: #FFCE11;
+}
+
+.work-wrapper {
+  max-width: 1260px;
+  width: 100%;
+  height: auto;
+  background-color: #FBFBF2;
+}
+
+.form {
+  width: 100%;
+  height: 0;
+  padding-top: 50.95238095%;
+  background-image: url(../img/main-copy.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.work-text {
+  width: 56%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.work-text h1 {
+  font-size: 40px;
+  color: #401F0F;
+  padding-bottom: 20px;
+}
+
+.work-text p {
+  font-size: 20px;
+  color: #212529;
+  padding-bottom: 50px;
+}
+
+.work-image {
+  width: 100%;
+  height: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.work-image img {
+  width: 345px;
+  height: 370px;
+  border: 1px solid #e0c7b2;
+  border-radius: 4px;
+}
+
+.sponcer-link {
+  width: 100%;
+  height: 20%;
+  padding: 64px 0;
+}
+
+.sponcer-link p {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.OUR-VISION-wrapper {
+  max-width: 1260px;
+  width: 100%;
+  height: auto;
+  background-color: #E0C7B2;
+}
+
+.our-vision-text {
+  width: 56%;
+  margin: 0 auto;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.our-vision-text h1 {
+  font-size: 40px;
+}
+
+.our-vision-text p {
+  font-size: 20px;
+}
+
+.our-vision-image {
+  width: 90%;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+}
+
+.our-vision-image p {
+  width: 67%;
+  height: 40%;
+  display: inline-block;
+  padding-top: 60px;
+  font-size: 16px;
+}
+
+.our-vision-image img {
+  width: 33%;
+  height: 98%;
+  display: inline-block;
+  float: right;
+}
+
+.service-wrapper {
+  max-width: 1260px;
+  width: 100%;
+  height: auto;
+  background-color: #FBFBF2;
+}
+
+.service-text {
+  width: 60%;
+  height: 10%;
+  margin: 0 auto;
+  padding-top: 9%;
+  text-align: center;
+}
+
+.service-text h1 {
+  font-size: 40px;
+  color: #401F0F;
+  padding-bottom: 20px;
+}
+
+.service-text p {
+  font-size: 20px;
+  color: #212529;
+}
+
+.desktop-icon {
+  width: 27%;
+  height: 33%;
+  margin: 10% 3% 0 3%;
+  text-align: center;
+  float:left;
+}
+
+.desktop-icon h2 {
+  padding: 2% 0;
+  font-size: 28px;
+}
+
+.desktop-icon p {
+  font-size: 16px;
+}
+
+.sponcer-link a span {
+  display: inline-block;
+  margin-top: 70px;
+}
+
+.staff-warapper {
+  max-width: 1260px;
+  width: 100%;
+  height: auto;
+  background-color: #E0C7B2;
+}
+
+.staff-text {
+  width: 56%;
+  margin: 0 auto;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.staff-text h1 {
+  font-size: 40px;
+}
+
+.staff-text p {
+  font-size: 20px;
+}
+
+.staff-list {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2%;
+  display: flex;
+}
+
+.staff-name {
+  width: 30%;
+  margin: 0 auto;
+  background-color: white;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.staff-name img {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+}
+
+.staff-name ul {
+  width: 60%;
+  display:  inline-block;
+  margin-top: 2%;
+  float: right;
+}
+
+.staff-name ul li {
+  list-style: none;
+  padding-left: 10%;
+  text-align: left;
+}
+
+.name {
+  font-size: 16px;
+}
+
+.name-Jp {
+  font-size: 28px;
+}
+
+.name-En {
+  font-size: 14px;
+  color: #968075;
+}
+
+.profile {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2%;
+}
+
+.profile p {
+  font-size: 16px;
+  display: inline-block;
+}
+
+.staff-form {
+  width: 87%;
+  height: 68px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.staff-form a {
+  width: 100%;
+  line-height: 67px;
+  margin-top: 4%;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #401F0F;
+  border-radius: 4px;
+}
+
+.blog-wrapper {
+  max-width: 1260px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10%;
+  background-color: #FBFBF2;
+}
+
+.blog-text {
+  width: 60%;
+  height: 10%;
+  margin: 0 auto;
+  padding-top: 9%;
+  text-align: center;
+}
+
+.blog-text h1 {
+  font-size: 40px;
+  color: #401F0F;
+  padding-bottom: 20px;
+}
+
+.blog-text p {
+  font-size: 20px;
+  color: #212529;
+}
+
+.news {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2%;
+  display: flex;
+}
+
+.news-text {
+  width: 49%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.news-text img {
+  width: 50%;
+  height: 92%;
+}
+
+.blog-title {
+  width: 44.5%;
+  margin-bottom: 4%;
+  background-color: white;
+}
+
+.blog-title h3 {
+  font-size: 28px;
+  color: #401F0F;
+}
+
+.blog-title p {
+  font-size: 16px;
+  color: #212529;
+  padding: 1% 0 10% 0;
+}
+
+.banner-wrapper {
+  max-width: 1260px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  background-color: #212529;
+}
+
+.banner-contents {
+  width: 88%;
+  padding: 5% 0;
+  margin: 0 auto;
+  display: flex;
+}
+
+.banner-text {
+  width: 50%;
+  padding: 0 3%;
+  margin-right: 2%;
+  color: #e0c7b2;
+  border-left: 1px solid #773831;
+}
+
+.banner-side {
+  width: 30%;
+  padding: 0 3%;
+  margin-left: 2%;
+  color: #e0c7b2;
+  border-left: 1px solid #773831;
+  border-right: 1px solid #773831;
+}
+
+.banner-text h1 {
+  padding-bottom: 30px;
+  color: #FFCE11;
+}
+
+.banner-text ul li {
+  padding: 6px 0;
+  list-style: none;
+}
+
+.banner-side h1 {
+  padding-bottom: 30px;
+  color: #FFCE11;
+}
+
+.banner-side ul li {
+  padding: 6px 0;
+  list-style: none;
+}
+
+.banner-image {
+  width: 88%;
+  margin: 0 auto;
+}
+
+.banner-icon img {
+  width: 30%;
+  height: 50%;
+  padding: 0 1.5%;
+}
+
+footer {
+  max-width: 1260px;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding-top: 2%;
+  background-color: #401F0F;
+  color: #e0c7b2;
+}
+
+.footer p {
+  line-height: 40px;
+  font-size: 16px;
+}
+
+/*ここからレスポンシブ */
+
+/*771px以上の端末 */
+@media screen and (min-width: 771px){
+  .menu-icon {
+    display: none;
+  }
+}
+
+
+
+
+/*770px以下の端末 */
+@media screen and (max-width: 770px) {
+  .header-left {
+    width: 100%;
+  }
+
+.header-container {
+    height:auto;
+    display: block;
+  }
+
+  .header-left {
+    width: 50%;
+    display: inline-block;
+  }
+
+  .fa-bars {
+      display: block !important;
+      cursor: pointer;
+    }
+
+  .menu-icon {
+    float: right;
+    margin-top: 25px;
+    margin-right: 10%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .nav-modal {
+    display: block;
+  }
+
+
+  .our-vision-image {
+    display: block;
+  }
+
+  .our-vision-image p {
+    width: 100%;
+  }
+
+  .our-vision-image img {
+    width: 100%;
+    display: inline-block;
+    float: none;
+  }
+
+  .desktop-icon {
+    width: 90%;
+    float: none;
+  }
+
+  .staff-list {
+    display: block;
+  }
+
+  .staff-name {
+    width: 100%;
+    margin: 2% 0;
+  }
+
+  .news {
+    display: block;
+  }
+
+  .news-text {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .news-text img {
+    width: 100%;
+  }
+
+  .blog-title {
+    width: 100%;
+  }
+
+  .banner-contents {
+    display: block;
+  }
+
+  .banner-text {
+    width: 100%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #773831;
+    border-left: none;
+  }
+
+  .banner-side {
+    width: 100%;
+    padding: 4% 0 2% 0;
+    border-bottom: 1px solid #773831;
+    border-left: none;
+    border-right: none;
+  }
+
+  .banner-icon img {
+    width: 100%;
+    padding: 2% 0;
+  }
+}
